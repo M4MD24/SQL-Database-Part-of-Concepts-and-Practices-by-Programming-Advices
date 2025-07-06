@@ -1,0 +1,74 @@
+---
+title: "Library Management System"
+---
+erDiagram
+    Books {
+        INT BookID PK
+        NCARCHAR(150) Title
+        NVARCHAR(100) AuthorID FK
+        NVARCHAR(50) Genre
+        DATE PublicationDate
+        NVARCHAR(50) ISBN
+        NVARCHAR(MAX) AdditionalDetails
+    }
+
+    BookCopies {
+        INT BookCopyID PK
+        INT BookID FK
+        BIT AvailabilityStatus
+    }
+
+    Author {
+        INT AuthorID PK
+    }
+
+    Users {
+        INT UserID PK
+        NVARCHAR(100) Name
+        INT ContactInformationID FK
+        NVARCHAR(50) LibraryCardNumber
+    }
+
+    ContactInformation {
+        INT ContactInformationID PK
+        VCHAR(20) PhoneNumber
+        VCHAR(100) Email
+    }
+
+    BorrowingRecords {
+        INT BorrowingRecordID PK
+        INT BookCopyID FK
+        INT UserID FK
+        DATETIME BorrowingDateTime
+        DATETIME DueDateTime
+        DATETIME ActualReturnsDateTime
+    }
+
+    Reservations {
+        INT ReservationID PK
+        INT UserID FK
+        INT BookCopyID FK
+        DATETIME ReservationDateTime
+    }
+
+    Fines {
+        INT FinesID PK
+        INT BorrowingRecordID FK
+        SMALLINT NumberOfLateDays
+        SMALLINT FineAmount
+        BIT PaymentStatus
+    }
+
+    Constants {
+        TINYINY BorrowDays
+        TINYINY FinePerDay
+    }
+
+    Users ||--|| ContactInformation: Contact
+    Author ||--o{ Books: Writes
+    Books ||--|{ BookCopies: Has
+    Users ||--o{ BorrowingRecords: Borrows
+    BookCopies ||--o{ BorrowingRecords: "Is Borrowed In"
+    Users ||--o{ Reservations: Reservation
+    BookCopies ||--o{ Reservations: "Is Reserved As"
+    Fines |o--|| BorrowingRecords: "Fined For"
