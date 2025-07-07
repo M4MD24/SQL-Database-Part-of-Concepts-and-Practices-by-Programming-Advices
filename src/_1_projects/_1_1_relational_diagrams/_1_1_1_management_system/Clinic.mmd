@@ -64,11 +64,11 @@ erDiagram
         NVARCHAR(200) SpecialInstructions
     }
 
-    Persons ||--|| ContactInformation: "contact"
-    Persons ||--|o Patients: "is patient"
-    Persons ||--|o Doctors: "is doctor"
-    Patients ||--|{ Appointments: "has appointments"
-    Doctors ||--|{ Appointments: "has appointments"
-    Appointments ||--o| Payments: "payment"
-    Appointments ||--o| MedicalRecords: "record"
-    MedicalRecords ||--o| Prescription: "prescription"
+    Persons ||--|| ContactInformation: "Contact"
+    Persons ||--o| Patients: "Is Patient"
+    Persons ||--o| Doctors: "Is Doctor"
+    Patients ||--|{ Appointments: "Has Appointments"
+    Doctors ||--|{ Appointments: "Has Appointments"
+    Appointments ||--o| Payments: "Payment"
+    Appointments ||--o| MedicalRecords: "Record"
+    MedicalRecords ||--o| Prescription: "Prescription"
