@@ -1,0 +1,83 @@
+---
+title: "Car Rental Management System"
+---
+erDiagram
+    Customers {
+        INT CustomerID PK
+        NVARCHAR(100) Name
+        INT ContactInformationID FK
+        NVARCHAR(20) DriverLicenseNumber
+    }
+
+    ContactInformation {
+        INT ContactInformationID PK
+        VCHAR(20) PhoneNumber
+        VCHAR(100) Email
+    }
+
+    Cars {
+        INT CarID PK
+        NVARCHAR(100) Model
+        DATE Year
+        INT Milage
+        INT FuelTypeID FK
+        NCARCHAr(20) PlateNumber
+        DECIMAL RentalRatePerDay
+        INT CarCategoryID FK
+        BIT IsAvailable
+    }
+
+    FuelTypes {
+        INT FuelTypeID PK
+        NVARCHAR(30) FuelType
+    }
+
+    CarCategories {
+        INT CarCategoryID PK
+        NVARCHAR(50) CategoryName
+    }
+
+    RentalBooking {
+        INT RentalBookingID PK
+        INT CustomerID FK
+        INT CarID FK
+        DATETIME StartDateTime
+        DATETIME EndDateTime
+        NVARCHAR(100) PickupLocation
+        NVARCHAR(100) DropOfLocation
+        TINYINT InitialRentalDays
+        SMALLMONEY PaidRentalPerDay
+        NVARCHAR(MAX) InitialCheckNotes
+    }
+
+    Payments {
+        INT PaymentID PK
+        DECIMAL Amount
+        DATE PaymentDate
+        NVARCHAR(50) PaymentMethod
+    }
+
+    RentalTransactions {
+        INT RentalTransactionID PK
+        INT RentalBookingID FK
+        INT CarReturnID FK
+        INT PaymentID FK
+        DECIMAL RentalDays
+        DATETIME RentalTransactionDateTime
+    }
+
+    CarReturns {
+        INT CarReturnID PK
+        DATETIME ReturnDateTime
+        INT AdditionalChargesID FK
+    }
+
+    Customers ||--|| ContactInformation: "Contact"
+    Cars }o--|| FuelTypes: "Uses"
+    Cars }o--|| CarCategories: "Belongs To"
+    Customers ||--o{ RentalBooking: "Makes"
+    Cars ||--o{ RentalBooking: "Is Booked In"
+    RentalTransactions ||--|| RentalBooking: "Records"
+    RentalTransactions ||--|| Payments: "Includes"
+    RentalTransactions ||--|| CarReturns: "Handles"
+    CarReturns ||--o| Payments: "Charges"
