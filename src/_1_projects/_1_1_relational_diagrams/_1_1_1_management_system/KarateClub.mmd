@@ -1,0 +1,89 @@
+---
+title: "Library Management System"
+---
+erDiagram
+    Persons {
+        INT PersonID PK
+        NVARCHAR(100) Name
+        INT ContactInformationID FK
+        NVCHAR(200) Address
+    }
+
+    ContactInformation {
+        INT ContactInformationID PK
+        VCHAR(20) PhoneNumber
+        VCHAR(100) Email
+    }
+
+    Members {
+        INT MemberID PK
+        INT PersonID FK
+        INT EmergencyContactInformationID FK
+        INT BeltRankID FK
+        BIT IsActive
+    }
+
+    EmergencyContactInformation {
+        INT EmergencyContactInformationID PK
+        INT ContactInformationID FK
+    }
+
+    BeltRanks {
+        INT BeltRankID PK
+        NVARCHAR(50) RankName
+        SMALLMONEY TestFees
+    }
+
+    Instructions {
+        INT InstructionID PK
+        INT PersonID FK
+        NVARCHAR(100) Qualification
+    }
+
+    MemberInstructors {
+        INT MemberInstructor PK
+        INT MemberID FK
+        INT InstructionID FK
+        DATE AssignDate
+    }
+
+    SubscriptionPeriods {
+        INT SubscriptionPeriodID PK
+        DATE StartDate
+        DATE EndDate
+        SMALLMONEY Fees
+        INT MemberID FK
+        INT PaymentID FK
+    }
+
+    BeltTests {
+        INT BeltTestID PK
+        INT MemberID FK
+        INT BeltRankID FK
+        INT InstructionID FK
+        INT PaymentID FK
+        BIT Result
+        DATETIME BeltTestDateTime
+    }
+
+    Payments {
+        INT PaymentID PK
+        DECIMAL Amount
+        DATE PaymentDate
+        NVARCHAR(50) PaymentMethod
+    }
+
+    Persons ||--o| Members: "Is Member"
+    Persons ||--o| Instructions: "Is Instruction"
+    Persons ||--|| ContactInformation: "Contact"
+    Members ||--|| EmergencyContactInformation: "Contact"
+    EmergencyContactInformation ||--|| ContactInformation: "Details"
+    Members ||--|{ MemberInstructors: "Assigned Instructors"
+    Instructions ||--|{ MemberInstructors: "Assigned Members"
+    Instructions ||--o{ BeltTests: "Conducts Tests"
+    Members ||--|{ SubscriptionPeriods: "Subscriptions"
+    Members ||--|| BeltRanks: "Has Rank"
+    Members ||--o{ BeltTests: "Takes Tests"
+    SubscriptionPeriods ||--|| Payments: "Covers"
+    Payments ||--|| BeltTests: "Pays For"
+    BeltRanks ||--|{ BeltTests: "Tested Rank"

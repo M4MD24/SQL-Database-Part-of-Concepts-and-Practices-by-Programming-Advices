@@ -1,0 +1,74 @@
+---
+title: "Clinic Management System"
+---
+erDiagram
+    Persons {
+        INT PersonID PK
+        NVARCHAR(100) Name
+        DATE DateOfBirth
+        CHAR Gender
+        INT ContactInformationID FK
+        NVCHAR(200) Address
+    }
+
+    Patients {
+        INT PatientID PK
+        INT PersonID FK
+    }
+
+    ContactInformation {
+        INT ContactInformationID PK
+        VCHAR(20) PhoneNumber
+        VCHAR(100) Email
+    }
+
+    Doctors {
+        INT DoctorID PK
+        INT PersonID FK
+        NVCHAR(100) Specialization
+    }
+
+    Appointments {
+        INT AppointmentID PK
+        INT PatientID FK
+        INT DoctorID FK
+        INT MedicalRecordID FK
+        INT PrescriptionID FK
+        TINYINT AppointmentStatus
+        DATETIME AppointmentDateTime
+    }
+
+    MedicalRecords {
+        INT MedicalRecordID PK
+        NVARCHAR(200) VisitDescription
+        NVARCHAR(100) Diagnosis
+        NVARCHAR(200) AdditionalNotes
+    }
+
+    Payments {
+        INT PaymentID PK
+        DATE PaymentDate
+        NVARCHAR(50) PaymentMethod
+        DECIMAL AmountPaid
+        NVARChAR(200) AdditionalNotes
+    }
+
+    Prescription {
+        INT PrescriptionID PK
+        INT MedicalRecordID FK
+        NVARCHAR(100) MedicationName
+        NVARCHAR(50) Dosage
+        NVARCHAR(50) Frequency
+        DATE StartDate
+        DATE EndDate
+        NVARCHAR(200) SpecialInstructions
+    }
+
+    Persons ||--|| ContactInformation: "Contact"
+    Persons ||--o| Patients: "Is Patient"
+    Persons ||--o| Doctors: "Is Doctor"
+    Patients ||--|{ Appointments: "Has Appointments"
+    Doctors ||--|{ Appointments: "Has Appointments"
+    Appointments ||--o| Payments: "Payment"
+    Appointments ||--o| MedicalRecords: "Record"
+    MedicalRecords ||--o| Prescription: "Prescription"
