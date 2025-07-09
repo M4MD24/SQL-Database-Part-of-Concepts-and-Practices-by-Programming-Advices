@@ -14,3 +14,4 @@
     3. Extract Data to a Separate Table
 3. [Problems](src/_2_problems)
     1. [Problem 1: Create Master View](src/_2_problems/_2_1_create_master_view)
+    2. [Problem 2: Get all vehicles made between 1950 and 2000](src/_2_problems/_2_2_get_all_vehicles_made_between_1950_and_2000)
