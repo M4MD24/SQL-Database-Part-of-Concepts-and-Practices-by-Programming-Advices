@@ -12,3 +12,5 @@
     1. What is GUID? and how to use it In Database?
     2. Buy and Import Data
     3. Extract Data to a Separate Table
+3. [Problems](src/_2_problems)
+    1. [Problem 1: Create Master View](src/_2_problems/_2_1_create_master_view)
