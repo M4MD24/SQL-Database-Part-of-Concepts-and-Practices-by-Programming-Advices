@@ -1,0 +1,91 @@
+---
+title: "Online Store Management System"
+---
+erDiagram
+    ProductCategories {
+        INT ProductCategoryID PK
+        NVARCHAR(100) ProductName
+    }
+
+    Products {
+        INT ProductID PK
+        NVARCHAR(150) Name
+        NVARCHAR(500) Description
+        MONEY Price
+        INT QuantityInStock
+        INT CategoryID FK
+    }
+
+    Payments {
+        INT PaymentID PK
+        MONEY Amount
+        DATE PaymentDate
+        NVARCHAR(50) PaymentMethod
+    }
+
+    ProductImages {
+        INT ProductImageID PK
+        INT ProductID FK
+        NVARCHAR(400) ImageURL
+        TINYINT ImageOrder
+    }
+
+    Orders {
+        INT OrderID PK
+        INT CustomerID FK
+        INT ProductID FK
+        INT PaymentID FK
+        DATETIME OrderDateTime
+        INT Quantity
+        SMALLINT Status
+    }
+
+    Reviews {
+        INT ReviewID PK
+        INT CustomerID FK
+        INT ProductID FK
+        NVARCHAR(500) ReviewText
+        TINYINY Rating
+        DATETIME ReviewDateTime
+    }
+
+    Customers {
+        INT CustomerID PK
+        NVARCHAR(100) Name
+        INT ContactInformationID FK
+        NVARCHAR(200) Address
+        INT LoginCredentialID FK
+    }
+
+    LoginCredentials {
+        INT LoginCredentialID PK
+        VARCHAR(100) Username
+        VARCHAR(100) Password
+    }
+
+    ContactInformation {
+        INT ContactInformationID PK
+        VCHAR(20) PhoneNumber
+        VCHAR(100) Email
+    }
+
+    Shipping {
+        INT ShippingID PK
+        INT OrderID FK
+        NVARCHAR(100) CarrierName
+        NVARCHAR(50) TrackingNumber
+        SMALLINT Status
+        DATETIME EstimatedDeliveryDateTime
+        DATETIME ActualDeliveryDateTime
+    }
+
+    Customers ||--|| ContactInformation: "Contact"
+    Customers ||--|| LoginCredentials: "Login"
+    Products ||--|{ ProductImages: "Has"
+    Products }o--|| ProductCategories: "Belongs To"
+    Orders ||--|| Payments: "Paid With"
+    Customers ||--o{ Orders: "Places"
+    Products ||--o{ Orders: "Ordered In"
+    Reviews ||--o{ Products: "Reviewed"
+    Reviews ||--o{ Customers: "Written By"
+    Orders ||--o| Shipping: "Shipped With"
