@@ -11,3 +11,4 @@
 2. Concepts
     1. What is GUID? and how to use it In Database?
     2. Buy and Import Data
+    3. Extract Data to a Separate Table
