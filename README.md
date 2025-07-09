@@ -16,3 +16,4 @@
     1. [Problem 1: Create Master View](src/_2_problems/_2_1_create_master_view)
     2. [Problem 2: Get all vehicles made between 1950 and 2000](src/_2_problems/_2_2_get_all_vehicles_made_between_1950_and_2000)
     3. [Problem 3: Get number vehicles made between 1950 and 2000](src/_2_problems/_2_3_get_number_vehicles_made_between_1950_and_2000)
+    4. [Problem 4: Get number vehicles made between 1950 and 2000 per make and order them by Number of Vehicles Descending](src/_2_problems/_2_4_get_number_vehicles_made_between_1950_and_2000_per_make_and_order_them_by_number_of_vehicles_descending)
