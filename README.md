@@ -18,3 +18,4 @@
     3. [Problem 3: Get number vehicles made between 1950 and 2000](src/_2_problems/_2_3_get_number_vehicles_made_between_1950_and_2000)
     4. [Problem 4: Get number vehicles made between 1950 and 2000 per make and order them by Number of Vehicles Descending](src/_2_problems/_2_4_get_number_vehicles_made_between_1950_and_2000_per_make_and_order_them_by_number_of_vehicles_descending)
     5. [Problem 5: Get All Makes that have manufactured more than 12000 Vehicles in years 1950 to 2000](src/_2_problems/_2_5_get_all_makes_that_have_manufactured_more_than_12000_vehicles_in_years_1950_to_2000)
+    6. [Problem 6: Get number of vehicles made between 1950 and 2000 per make and add total vehicles column beside](src/_2_problems/_2_6_get_number_of_vehicles_made_between_1950_and_2000_per_make_and_add_total_vehicles_column_beside)
