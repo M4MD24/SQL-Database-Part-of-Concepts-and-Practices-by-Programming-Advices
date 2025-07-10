@@ -23,3 +23,4 @@
     8. [Problem 8: Get Make, FuelTypeName and Number of Vehicles per FuelType per Make](src/_2_problems/_2_8_get_make_fuel_type_name_and_number_of_vehicles_per_fuel_type_per_make)
     9. [Problem 9: Get all vehicles that runs with GAS](src/_2_problems/_2_9_get_all_vehicles_that_runs_with_gas)
     10. [Problem 10: Get all Makes that runs with GAS](src/_2_problems/_2_10_get_all_makes_that_runs_with_gas)
+    11. [Problem 11: Get Total Makes that runs with GAS](src/_2_problems/_2_11_get_total_makes_that_runs_with_gas)
