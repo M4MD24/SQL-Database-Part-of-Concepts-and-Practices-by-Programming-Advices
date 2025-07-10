@@ -27,3 +27,4 @@
     12. [Problem 12: Count Vehicles by make and order them by NumberOfVehicles from high to low](src/_2_problems/_2_12_count_vehicles_by_make_and_order_them_by_number_of_vehicles_from_high_to_low)
     13. [Problem 13: Get all Makes/Count of Vehicles that manufactures more than 20K Vehicles](src/_2_problems/_2_13_get_all_makes_and_count_of_vehicles_that_manufactures_more_than_20k_vehicles)
     14. [Problem 14: Get all Makes with make starts with 'B'](src/_2_problems/_2_14_get_all_makes_with_make_starts_with_b)
+    15. [Problem 15: Get all Makes with make ends with 'W'](src/_2_problems/_2_15_get_all_makes_with_make_ends_with_w)
