@@ -22,3 +22,4 @@
     7. [Problem 7: Get number of vehicles made between 1950 and 2000 per make and add total vehicles column beside it, then calculate it's percentage](src/_2_problems/_2_7_get_number_of_vehicles_made_between_1950_and_2000_per_make_and_add_total_vehicles_column_beside_it_then_calculate_it_is_percentage)
     8. [Problem 8: Get Make, FuelTypeName and Number of Vehicles per FuelType per Make](src/_2_problems/_2_8_get_make_fuel_type_name_and_number_of_vehicles_per_fuel_type_per_make)
     9. [Problem 9: Get all vehicles that runs with GAS](src/_2_problems/_2_9_get_all_vehicles_that_runs_with_gas)
+    10. [Problem 10: Get all Makes that runs with GAS](src/_2_problems/_2_10_get_all_makes_that_runs_with_gas)
