@@ -20,3 +20,4 @@
     5. [Problem 5: Get All Makes that have manufactured more than 12000 Vehicles in years 1950 to 2000](src/_2_problems/_2_5_get_all_makes_that_have_manufactured_more_than_12000_vehicles_in_years_1950_to_2000)
     6. [Problem 6: Get number of vehicles made between 1950 and 2000 per make and add total vehicles column beside](src/_2_problems/_2_6_get_number_of_vehicles_made_between_1950_and_2000_per_make_and_add_total_vehicles_column_beside)
     7. [Problem 7: Get number of vehicles made between 1950 and 2000 per make and add total vehicles column beside it, then calculate it's percentage](src/_2_problems/_2_7_get_number_of_vehicles_made_between_1950_and_2000_per_make_and_add_total_vehicles_column_beside_it_then_calculate_it_is_percentage)
+    8. [Problem 8: Get Make, FuelTypeName and Number of Vehicles per FuelType per Make](src/_2_problems/_2_8_get_make_fuel_type_name_and_number_of_vehicles_per_fuel_type_per_make)
