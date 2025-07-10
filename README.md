@@ -24,3 +24,4 @@
     9. [Problem 9: Get all vehicles that runs with GAS](src/_2_problems/_2_9_get_all_vehicles_that_runs_with_gas)
     10. [Problem 10: Get all Makes that runs with GAS](src/_2_problems/_2_10_get_all_makes_that_runs_with_gas)
     11. [Problem 11: Get Total Makes that runs with GAS](src/_2_problems/_2_11_get_total_makes_that_runs_with_gas)
+    12. [Problem 12: Count Vehicles by make and order them by NumberOfVehicles from high to low](src/_2_problems/_2_12_count_vehicles_by_make_and_order_them_by_number_of_vehicles_from_high_to_low)
