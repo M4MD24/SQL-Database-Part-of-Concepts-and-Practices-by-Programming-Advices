@@ -31,3 +31,4 @@
     16. [Problem 16: Get all Makes that manufactures DriveTypeName = FWD](src/_2_problems/_2_16_get_all_makes_that_manufactures_drive_type_name_equal_fwd)
     17. [Problem 17: Get total Makes that Mantufactures DriveTypeName=FWD](src/_2_problems/_2_17_get_total_makes_that_mantufactures_drive_type_name_equal_fwd)
     18. [Problem 18: Get total vehicles per DriveTypeName Per Make and order them per make asc then per total Desc](src/_2_problems/_2_18_get_total_vehicles_per_drive_type_name_per_make_and_order_them_per_make_asc_then_per_total_desc)
+    19. [Problem 19: Get total vehicles per DriveTypeName Per Make then filter only results with total > 10,000](src/_2_problems/_2_19_get_total_vehicles_per_drive_type_name_per_make_then_filter_only_results_with_total_bigger_than_10000)
