@@ -37,3 +37,4 @@
     22. [Problem 22: Get percentage of vehicles that has no doors specified](src/_2_problems/_2_22_get_percentage_of_vehicles_that_has_no_doors_specified)
     23. [Problem 23: Get MakeID, Make, SubModelName for all vehicles that have SubModelName 'Elite'](src/_2_problems/_2_23_get_make_id_and_make_and_sub_model_name_for_all_vehicles_that_have_sub_model_name_elite)
     24. [Problem 24: Get all vehicles that have Engines > 3 Liters and have only 2 doors](src/_2_problems/_2_24_get_all_vehicles_that_have_engines_bigger_than_3_liters_and_have_only_2_doors)
+    25. [Problem 25: Get make and vehicles that the engine contains 'OHV' and have Cylinders = 4](src/_2_problems/_2_25_get_make_and_vehicles_that_the_engine_contains_ohv_and_have_cylinders_equal_4)
