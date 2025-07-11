@@ -42,3 +42,4 @@
     27. [Problem 27: Get all vehicles that their Body is 'Coupe' or 'Hatchback' or 'Sedan'](src/_2_problems/_2_27_get_all_vehicles_that_their_body_is_coupe_or_hatchback_or_sedan)
     28. [Problem 28: Get all vehicles that their body is 'Coupe' or 'Hatchback' or 'Sedan' and manufactured in year 2008 or 2020 or 2021](src/_2_problems/_2_28_get_all_vehicles_that_their_body_is_coupe_or_hatchback_or_sedan_and_manufactured_in_year_2008_or_2020_or_2021)
     29. [Problem 29: Return found=1 if there is any vehicle made in year 1950](src/_2_problems/_2_29_return_found_equal_1_if_there_is_any_vehicle_made_in_year_1950)
+    30. [Problem 30: Get all Vehicle_Display_Name, NumDoors and add extra column to describe number of doors by words, and if door is null display 'Not Set']()
