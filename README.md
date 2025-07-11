@@ -34,3 +34,4 @@
     19. [Problem 19: Get total vehicles per DriveTypeName Per Make then filter only results with total > 10,000](src/_2_problems/_2_19_get_total_vehicles_per_drive_type_name_per_make_then_filter_only_results_with_total_bigger_than_10000)
     20. [Problem 20: Get all Vehicles that number of doors is not specified](src/_2_problems/_2_20_get_all_vehicles_that_number_of_doors_is_not_specified)
     21. [Problem 21: Get Total Vehicles that number of doors is not specified](src/_2_problems/_2_21_get_total_vehicles_that_number_of_doors_is_not_specified)
+    22. [Problem 22: Get percentage of vehicles that has no doors specified](src/_2_problems/_2_22_get_percentage_of_vehicles_that_has_no_doors_specified)
