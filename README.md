@@ -50,3 +50,4 @@
     35. [Problem 35: 0et all vehicles that have the Maximum Engine_CC](src/_2_problems/_2_35_get_all_vehicles_that_have_the_maximum_engine_cc)
     36. [Problem 36: Get all vehicles that have Engin_CC below average](src/_2_problems/_2_36_get_all_vehicles_that_have_engine_cc_below_average)
     37. [Problem 37: Get total vehicles that have Engin_CC above average](src/_2_problems/_2_37_get_total_vehicles_that_have_engine_cc_above_average)
+    38. [Problem 38: Get all unique Engin_CC and sort them Desc](src/_2_problems/_2_38_get_all_unique_engine_cc_and_sort_them_desc)
