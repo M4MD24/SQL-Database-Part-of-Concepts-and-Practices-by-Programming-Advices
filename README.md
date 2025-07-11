@@ -35,3 +35,4 @@
     20. [Problem 20: Get all Vehicles that number of doors is not specified](src/_2_problems/_2_20_get_all_vehicles_that_number_of_doors_is_not_specified)
     21. [Problem 21: Get Total Vehicles that number of doors is not specified](src/_2_problems/_2_21_get_total_vehicles_that_number_of_doors_is_not_specified)
     22. [Problem 22: Get percentage of vehicles that has no doors specified](src/_2_problems/_2_22_get_percentage_of_vehicles_that_has_no_doors_specified)
+    23. [Problem 23: Get MakeID, Make, SubModelName for all vehicles that have SubModelName 'Elite'](src/_2_problems/_2_23_get_make_id_and_make_and_sub_model_name_for_all_vehicles_that_have_sub_model_name_elite)
