@@ -39,3 +39,4 @@
     24. [Problem 24: Get all vehicles that have Engines > 3 Liters and have only 2 doors](src/_2_problems/_2_24_get_all_vehicles_that_have_engines_bigger_than_3_liters_and_have_only_2_doors)
     25. [Problem 25: Get make and vehicles that the engine contains 'OHV' and have Cylinders = 4](src/_2_problems/_2_25_get_make_and_vehicles_that_the_engine_contains_ohv_and_have_cylinders_equal_4)
     26. [Problem 26: Get all vehicles that their body is 'Sport Utility' and Year > 2020](src/_2_problems/_2_26_get_all_vehicles_that_their_body_is_sport_utility_and_year_bigger_than_2020)
+    27. [Problem 27: Get all vehicles that their Body is 'Coupe' or 'Hatchback' or 'Sedan'](src/_2_problems/_2_27_get_all_vehicles_that_their_body_is_coupe_or_hatchback_or_sedan)
