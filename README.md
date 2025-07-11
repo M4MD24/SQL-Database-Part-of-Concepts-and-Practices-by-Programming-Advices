@@ -29,3 +29,4 @@
     14. [Problem 14: Get all Makes with make starts with 'B'](src/_2_problems/_2_14_get_all_makes_with_make_starts_with_b)
     15. [Problem 15: Get all Makes with make ends with 'W'](src/_2_problems/_2_15_get_all_makes_with_make_ends_with_w)
     16. [Problem 16: Get all Makes that manufactures DriveTypeName = FWD](src/_2_problems/_2_16_get_all_makes_that_manufactures_drive_type_name_equal_fwd)
+    17. [Problem 17: Get total Makes that Mantufactures DriveTypeName=FWD](src/_2_problems/_2_17_get_total_makes_that_mantufactures_drive_type_name_equal_fwd)
