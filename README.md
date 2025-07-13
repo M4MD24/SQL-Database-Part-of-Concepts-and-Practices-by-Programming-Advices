@@ -57,3 +57,4 @@
     42. [Problem 42: Get a table of unique Engine_CC and calculate tax per Engine CC](src/_2_problems/_2_42_get_a_table_of_unique_engine_cc_and_calculate_tax_per_engine_cc)
     43. [Problem 43: Get Make and Total Number of Doors Manufactured Per Make](src/_2_problems/_2_43_get_make_and_total_number_of_doors_manufactured_per_make)
     44. [Problem 44: Get Total Number of Doors Manufactured by 'Ford'](src/_2_problems/_2_44_get_total_number_of_doors_manufactured_by_ford)
+    45. [Problem 45: Get Number of Models Per Make](src/_2_problems/_2_45_get_number_of_models_per_make)
