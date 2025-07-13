@@ -61,3 +61,4 @@
     46. [Problem 46: Get the highest 3 manufacturers that make the highest number of models](src/_2_problems/_2_46_get_the_highest_3_manufacturers_that_make_the_highest_number_of_models)
     47. [Problem 47: Get the highest number of models manufactured](src/_2_problems/_2_47_get_the_highest_number_of_models_manufactured)
     48. [Problem 48: Get the highest Manufacturers manufactured the highest number of models](src/_2_problems/_2_48_get_the_highest_manufacturers_manufactured_the_highest_number_of_models)
+    49. [Problem 49: Get the Lowest Manufacturers manufactured the lowest number of models](src/_2_problems/_2_49_get_the_lowest_manufacturers_manufactured_the_lowest_number_of_models)
