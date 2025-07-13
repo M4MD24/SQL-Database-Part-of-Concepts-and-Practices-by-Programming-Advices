@@ -59,3 +59,4 @@
     44. [Problem 44: Get Total Number of Doors Manufactured by 'Ford'](src/_2_problems/_2_44_get_total_number_of_doors_manufactured_by_ford)
     45. [Problem 45: Get Number of Models Per Make](src/_2_problems/_2_45_get_number_of_models_per_make)
     46. [Problem 46: Get the highest 3 manufacturers that make the highest number of models](src/_2_problems/_2_46_get_the_highest_3_manufacturers_that_make_the_highest_number_of_models)
+    47. [Problem 47: Get the highest number of models manufactured](src/_2_problems/_2_47_get_the_highest_number_of_models_manufactured)
