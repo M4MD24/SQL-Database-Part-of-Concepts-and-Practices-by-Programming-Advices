@@ -13,6 +13,7 @@
     2. Buy and Import Data
     3. Extract Data to a Separate Table
 3. [Problems](src/_2_problems)
+    - [Restore This Simple Database](src/_2_problems/Database)
     1. [Problem 1: Create Master View](src/_2_problems/_2_1_create_master_view)
     2. [Problem 2: Get all vehicles made between 1950 and 2000](src/_2_problems/_2_2_get_all_vehicles_made_between_1950_and_2000)
     3. [Problem 3: Get number vehicles made between 1950 and 2000](src/_2_problems/_2_3_get_number_vehicles_made_between_1950_and_2000)
@@ -64,5 +65,6 @@
     49. [Problem 49: Get the Lowest Manufacturers manufactured the lowest number of models](src/_2_problems/_2_49_get_the_lowest_manufacturers_manufactured_the_lowest_number_of_models)
     50. [Problem 50: Get all Fuel Types, each time the result should be showed in random order](src/_2_problems/_2_50_get_all_fuel_types_and_each_time_the_result_should_be_showed_in_random_order)
     51. [Self Referential Queries](src/_2_problems/_2_51_self_referential_queries)
-        1. Restore this simple Database First
-        2. [Problem 51: Get all employees that have manager along with Manager's name](src/_2_problems/_2_51_self_referential_queries/_2_51_1_get_all_employees_that_have_manager_along_with_managers_name)
+        - [Restore This Simple Database](src/_2_problems/_2_51_self_referential_queries/Database)
+        1. [Problem 51: Get all employees that have manager along with Manager's name](src/_2_problems/_2_51_self_referential_queries/_2_51_1_get_all_employees_that_have_manager_along_with_managers_name)
+        2. [Problem 52: Get all employees that have manager or does not have manager along with Manager's name, incase no manager name show null](src/_2_problems/_2_51_self_referential_queries/_2_51_2_get_all_employees_that_have_manager_or_does_not_have_manager_along_with_managers_name_and_incase_no_manager_name_show_null)
