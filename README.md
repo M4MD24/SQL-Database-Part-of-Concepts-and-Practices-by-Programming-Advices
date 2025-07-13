@@ -45,7 +45,7 @@
     30. [Problem 30: Get all Vehicle_Display_Name, NumDoors and add extra column to describe number of doors by words, and if door is null display 'Not Set'](src/_2_problems/_2_30_get_all_vehicle_display_name_and_num_doors_and_add_extra_column_to_describe_number_of_doors_by_words_and_and_if_door_is_null_display_not_set)
     31. [Problem 31: Get all Vehicle_Display_Name, year and add extra column to calculate the age of the car then sort the results by age desc](src/_2_problems/_2_31_get_all_vehicle_display_name_and_year_and_add_extra_column_to_calculate_the_age_of_the_car_then_sort_the_results_by_age_desc)
     32. [Problem 32: Get all Vehicle_Display_Name, year, Age for vehicles that their age between 15 and 25 years old](src/_2_problems/_2_32_get_all_vehicle_display_name_and_year_and_age_for_vehicles_that_their_age_between_15_and_25_years_old)
-    33. [Problem 33: Get Minimum Engine CC , Maximum Engine CC , and Average Engine CC of all Vehicles](src/_2_problems/_2_33_get_minimum_engine_cc_and_maximum_engine_cc_and_and_average_engine_cc_of_all_vehicles)
+    33. [Problem 33: Get Minimum Engine CC, Maximum Engine CC, and Average Engine CC of all Vehicles](src/_2_problems/_2_33_get_minimum_engine_cc_and_maximum_engine_cc_and_and_average_engine_cc_of_all_vehicles)
     34. [Problem 34: Get all vehicles that have the minimum Engine_CC](src/_2_problems/_2_34_get_all_vehicles_that_have_the_minimum_engine_cc)
     35. [Problem 35: 0et all vehicles that have the Maximum Engine_CC](src/_2_problems/_2_35_get_all_vehicles_that_have_the_maximum_engine_cc)
     36. [Problem 36: Get all vehicles that have Engin_CC below average](src/_2_problems/_2_36_get_all_vehicles_that_have_engine_cc_below_average)
@@ -62,3 +62,4 @@
     47. [Problem 47: Get the highest number of models manufactured](src/_2_problems/_2_47_get_the_highest_number_of_models_manufactured)
     48. [Problem 48: Get the highest Manufacturers manufactured the highest number of models](src/_2_problems/_2_48_get_the_highest_manufacturers_manufactured_the_highest_number_of_models)
     49. [Problem 49: Get the Lowest Manufacturers manufactured the lowest number of models](src/_2_problems/_2_49_get_the_lowest_manufacturers_manufactured_the_lowest_number_of_models)
+    50. [Problem 50: Get all Fuel Types, each time the result should be showed in random order](src/_2_problems/_2_50_get_all_fuel_types_and_each_time_the_result_should_be_showed_in_random_order)
