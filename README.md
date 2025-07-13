@@ -63,3 +63,5 @@
     48. [Problem 48: Get the highest Manufacturers manufactured the highest number of models](src/_2_problems/_2_48_get_the_highest_manufacturers_manufactured_the_highest_number_of_models)
     49. [Problem 49: Get the Lowest Manufacturers manufactured the lowest number of models](src/_2_problems/_2_49_get_the_lowest_manufacturers_manufactured_the_lowest_number_of_models)
     50. [Problem 50: Get all Fuel Types, each time the result should be showed in random order](src/_2_problems/_2_50_get_all_fuel_types_and_each_time_the_result_should_be_showed_in_random_order)
+    51. [Self Referential Queries](src/_2_problems/_2_51_self_referential_queries)
+        1. Restore this simple Database First
